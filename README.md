@@ -1,2 +1,0 @@
-# LSG
-LSG Stuff :D
