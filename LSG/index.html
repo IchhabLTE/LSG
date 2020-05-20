@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LSG | Tickets</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+</head>
+
+<body>
+    <h1>LSG | Ticket System</h1>
+    <hr>
+
+    <div id="ticket_form">
+        <div class="title">Melden sie einen Hardware- oder Softwarefehler</div>
+        <form method="post">
+            <ul>
+                <li><input type="text" placeholder="Kürzel" name="subject" class="field" required id="Kürzel"></li>
+                <li><input type="text" placeholder="Raum Nr." name="subject" class="field" required id="Raumnummer">
+                </li>
+
+                <li><textarea placeholder="Bitte beschreiben sie ihr Problem in wenigen Worten." name="description"
+                        rows="6" class="field" required id="Beschreibung"></textarea></li>
+                <p>Ihre Anträge werden jeden Freitag bearbeitet!</p>
+                <li><input type="submit" value="Absenden" id="Submit"></li>
+            </ul>
+        </form>
+    </div>
+
+</body>
+
+</html>
